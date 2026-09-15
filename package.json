@@ -1,27 +1,22 @@
 {
-  "name": "exemplo_grid",
+  "name": "react-bootstrap-grid-demo",
+  "private": true,
   "version": "1.0.0",
-  "description": "Aula_Grid",
-  "homepage": "https://github.com/Gustavoss2365/Exemplo_Grid#readme",
-  "bugs": {
-    "url": "https://github.com/Gustavoss2365/Exemplo_Grid/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gustavoss2365/Exemplo_Grid.git"
-  },
-  "license": "ISC",
-  "author": "",
   "type": "module",
-  "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
-    "bootstrap": "^5.3.8",
-    "vite": "^8.2.1"
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.4"
   }
 }
